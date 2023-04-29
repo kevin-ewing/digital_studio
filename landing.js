@@ -24,6 +24,7 @@ function setup() {
   myDiv.style.color = MAIN_COLOR
   document.documentElement.style.setProperty('--supplement-color', MAIN_COLOR);
   document.documentElement.style.setProperty('--supplement-color-dark', COLOR_ARRAY[5]);
+  document.documentElement.style.setProperty('--background-color', BG_COLOR);
   noLoop()
 }
 
