@@ -193,13 +193,16 @@ canvas {
     display: flex;
     padding-top: 2rem;
     align-items: center;
+    margin: 0 auto;
+    max-width: 1100px;
 }
   
 .column1 {
-    width: 25%;
+    width: 30%;
+    color: white;
     
 }
   
 .column2 {
-    width: 75%;
+    width: 70%;
 }
