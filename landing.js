@@ -19,9 +19,6 @@ function setup() {
   BG_COLOR = color(hue(MAIN_COLOR),100,200);
 
   // document.documentElement.style.setProperty('buttons', MA);
-
-  let myDiv = document.getElementById("buttons");
-  myDiv.style.color = MAIN_COLOR
   document.documentElement.style.setProperty('--supplement-color', MAIN_COLOR);
   document.documentElement.style.setProperty('--supplement-color-dark', COLOR_ARRAY[5]);
   document.documentElement.style.setProperty('--background-color', BG_COLOR);
