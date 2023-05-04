@@ -18,7 +18,6 @@ function setup() {
   COLOR_ARRAY = getAnalogousColors(MAIN_COLOR);
   BG_COLOR = color(hue(MAIN_COLOR),100,200);
 
-  // document.documentElement.style.setProperty('buttons', MA);
   document.documentElement.style.setProperty('--supplement-color', MAIN_COLOR);
   document.documentElement.style.setProperty('--supplement-color-dark', COLOR_ARRAY[5]);
   document.documentElement.style.setProperty('--background-color', BG_COLOR);
