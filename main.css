@@ -105,6 +105,32 @@ canvas {
     z-index: 2;
   }
 
+#appearing.fade-in {
+  opacity: 1;
+  pointer-events: all;
+  cursor: pointer;
+}
+
+  
+/* Navbar links */
+.navbarButton {
+    float: left;
+    display: block;
+    color: var(--supplement-color);
+    text-align: center;
+    padding: 18px;
+    padding-top: 24px;
+    text-decoration: none;
+    font-family: 'Kanit', sans-serif;
+    font-size:18px;
+    z-index: 2;
+}
+
+
+.navbarButton:hover{
+    color: white;
+}
+
 
 #appearing {
     /* display: none; */
@@ -119,30 +145,12 @@ canvas {
     z-index: 2;
     opacity: 0;
     transition: opacity 1s ease-in-out;
+    pointer-events: none;
+    cursor: not-allowed; /* Optional: change cursor style to not-allowed to indicate the button is disabled */
 }
 
-#appearing.fade-in {
-  opacity: 1;
-}
-
-  
-/* Navbar links */
-#navbar a {
-    float: left;
-    display: block;
+#appearing:hover {
     color: var(--supplement-color);
-    text-align: center;
-    padding: 18px;
-    padding-top: 24px;
-    text-decoration: none;
-    font-family: 'Kanit', sans-serif;
-    font-size:18px;
-    z-index: 2;
-}
-
-
-#navbar a:hover{
-    color: white;
 }
 
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
