@@ -25,7 +25,7 @@ function setup() {
   // Create a stationary box at the bottom
   var stationaryBoxSize = 300;
   var stationaryBoxX = width / 2;
-  var stationaryBoxY = height - stationaryBoxSize / 2;
+  var stationaryBoxY = (2*height)/3
   stationaryBox = new Box(stationaryBoxX, stationaryBoxY, stationaryBoxSize, stationaryBoxSize, true);
 
   // Create a falling box with rotation
@@ -97,7 +97,7 @@ function restartFallingBox() {
 
     var stationaryBoxSize = 300;
     var stationaryBoxX = width / 2;
-    var stationaryBoxY = height - stationaryBoxSize / 2;
+    var stationaryBoxY = (2*height)/3;
     stationaryBox = new Box(stationaryBoxX, stationaryBoxY, stationaryBoxSize, stationaryBoxSize, true);
 
 
